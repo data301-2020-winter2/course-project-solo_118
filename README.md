@@ -1,26 +1,8 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=367947&assignment_repo_type=GroupAssignmentRepo)
-# Group YYY - {Short snappy Title of your project}
+## Describe your dataset
 
-- Your title can change over time.
+The dataset is from kaggle.com. A company which is active in Big Data and Data Science wants to hire data scientists among people who successfully pass some courses which conduct by the company. This dataset designed to understand the factors that lead a person to leave current job for HR researches too. By model(s) that uses the current credentials,demographics,experience data you will predict the probability of a candidate to look for a new job or will work for the company, as well as interpreting affected factors on employee decision.
 
-## Milestones
+## Describe your topic/interest in this dataset
 
-Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+This dataset can predict the probability of a candidate will work for the company which is an interesting topic for our daily life. We can build a dashboard to focus on  helping professionals in identifying issues and potential negative impacts on the decision by analyzing important metrics focused on talents.
 
-## Describe your topic/interest in about 150-200 words
-
-{Add your stuff here}
-
-## Describe your dataset in about 150-200 words
-
-{Add your stuff here}
-
-## Team Members
-
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
-
-## References
-
-{Add your stuff here}
