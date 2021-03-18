@@ -11,4 +11,19 @@ def load_and_process(data_file):
     .loc[:, ["enrollee_id", "gender", "company_type", "company_type"]]
     )
     return df
-load_and_process(data)
+
+def load_and_process4(data_file):
+    df = (
+    data.dropna(axis = 0)
+    .drop(columns='target')
+    .rename(columns = {"city_development_index": "city_index"})
+    .sort_values("city_index", ascending= True)
+    .loc[:, ["enrollee_id", "city_index", "company_type", "training_hours"]]
+)
+    
+df = load_and_process(data)
+df['training_hours'].plot(kind='hist', facecolor='green')
+df.boxplot('training_hours')
+corr = df.corr()
+sns.heatmap(corr, xticklabels=corr.columns, yticklabels=corr.columns, annot=True, cmap=sns.diverging_palette(220, 20, as_cmap=True))
+
