@@ -28,10 +28,10 @@ df.groupby('company_type')['training_hours'].nunique().plot(kind = 'bar')
 
 We find some interesting results:
 
-1. the **Male"** use the most training_hours in his job.
-1. the people in **Pvd Ltd** use the most training_hours in his job.
+1. the **Male"** use the most training_hours in his job and more **Male"** are looking for job than women.
+1. the people in **Pvd Ltd** use the most training_hours in his job and looking for a new job.
 1. the *gender* and "company_code" has the positive correlation
 1. the *gender* and *training_hour* has the negative correlation
 1. the *gender* and *company_code* has the negative correlation
 
-> Finally, we conclude the**male** and **Pvd Ltd** like training. 
+> Finally, we conclude the**male** and **Pvd Ltd** like training and looking for the new job. 
